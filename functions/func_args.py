@@ -6,6 +6,7 @@ def print_args(*args):
 print_args("oranges","apple","wood")
 
 # **kwargs
+# this is use to get multiple number of keyword arguments
 def print_kwargs(**kwargs):
     print('name: ',kwargs['name'])
     print('branch: ',kwargs['branch'])
